@@ -1,0 +1,73 @@
+@media (min-width: 375px) {
+    .modal__controller {
+        width: 80vw;
+    }
+    .modal__button--cancel {
+        width: 115px;
+    }
+}
+
+@media (min-width: 425px) {
+    .modal__controller {
+        width: 70vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .header__container,
+    .main__container {
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+    }
+    .header__content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .filter__container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .modal__controller {
+        width: 40vw;
+        margin-top: 6rem !important;
+    }
+    .modal__container--buttons > button {
+        width: 120px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header__container,
+    .main__container {
+        padding-left: 16rem;
+        padding-right: 16rem;
+    }
+    .header__button,
+    .filter__button,
+    .values__content > img {
+        cursor: pointer;
+    }
+    .modal__controller {
+        width: 32vw;
+        margin-top: 9.5rem !important;
+    }
+    .modal__close {
+        cursor: pointer;
+    }
+    .modal__container--type {
+        align-items: center;
+        flex-direction: row !important;
+    }
+    .modal__container--type > button {
+        width: 5.5rem;
+        cursor: pointer;
+    }
+    .modal__container--buttons > button {
+        cursor: pointer;
+    }
+    .modal__button--cancel {
+        margin-left: 8rem;
+    }
+}

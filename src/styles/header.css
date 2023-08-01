@@ -1,0 +1,30 @@
+.header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--color-grey-5);
+    padding: 1.75rem 1rem;    
+    width: 100vw;
+}
+.header__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.header__title--color {
+    color: var(--color-brand-1);
+}
+.header__button {
+    height: 32px;
+    padding: 0px 14px;
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    color: var(--color-mode);
+    border-radius: var(--radius-1);
+    background-color: var(--color-brand-1);
+    border: 1.5px solid var(--color-brand-1);
+}
+.header__button:hover {
+    background-color: var(--color-brand-2);
+}
