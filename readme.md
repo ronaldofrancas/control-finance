@@ -1,32 +1,34 @@
-## Introdução
-##### Este projeto é uma ferramenta poderosa com o objetivo de auxiliar o usuário a gerenciar suas finanças pessoais de forma eficiente. Nela, é possível registrar suas receitas e despesas, classificar valores e mantê-los organizados em nosso banco de dados. Com essa aplicação, os usuários têm controle total sobre suas finanças, facilitando o processo de tomada de decisões financeiras responsáveis. Explore, utilize e comece a trilhar o caminho para uma saúde financeira sólida!
+## Introduction
 
-## Funcionalidades
-- #### 💵 Inserção de Valores Financeiros 
-- #### 🗒️ Modal para Registro de Valores 
-- #### 💾 Cadastro no Banco de Dados 
-- #### 📊 Classificação dos Valores 
-- #### ❌ Remoção dos Valores 
-- #### 🔍 Filtragem dos Dados 
+##### This project is a powerful tool with the objective of helping the user to manage his personal finances efficiently. In it, you can register your income and expenses, classify values and keep them organized in our database. With this application, users have full control over their finances, facilitating the process of making responsible financial decisions. Explore, use and start walking the path to solid financial health!
 
-## Estrutura
-#### 🗂 Pasta Raiz
-- ##### `index.html`: arquivo HTML principal do aplicativo, responsável por renderizar a interface do usuário e carregar recursos necessários;
+## Functionalities
 
-- ##### `readme.md`: arquivo de documentação que você está lendo agora, contendo informações importantes sobre o projeto.
+- #### 💵 Entering Financial Values
+- #### 🗒️ Modal for Registration of Values
+- #### 💾 Database Registration
+- #### 📊 Classification of Values
+- #### ❌ Removal of Values
+- #### 🔍 Data Filtering
+
+## Structure
+
+#### 🗂 Root Folder
+- ##### `index.html`: main HTML file of the application, responsible for rendering the user interface and loading necessary resources;
+- ##### `readme.md`: documentation file that you are reading now, containing important information about the project.
 
 #### 📝 Scripts
-- ##### `modal.js`: contém a lógica para exibir e gerenciar o modal na aplicação;
-- ##### `render.js`: lida com a renderização dos elementos na interface do usuário;
-- ##### `index.js`: responsável por inicializar o aplicativo e gerenciar as interações com a interface do usuário;
-- ##### `values.js`: responsável pelo gerenciamento dos valores financeiros, como inserção, classificação e remoção.
+- ##### `modal.js`: contains the logic to display and manage the modal in the application;
+- ##### `render.js`: handles the rendering of elements in the user interface;
+- ##### `index.js`: responsible for initializing the application and managing interactions with the user interface;
+- ##### `values.js`: responsible for managing financial values, such as insertion, classification and removal.
 
-#### 🎨 Estilos
-- ##### `global.css`: estilos globais aplicados em toda a aplicação;
-- ##### `filters.css`: estilização relacionada aos filtros da aplicação;
-- ##### `headers.css`: estilos específicos para o cabeçalho da aplicação;
-- ##### `index.css`: estilização relacionada as tags principais da aplicação;
-- ##### `media.css`: estilos para diferentes tamanhos de tela (responsividade);
-- ##### `modal.css`: estilos relacionados à aparência e comportamento do modal.
+#### 🎨 Styles
+- ##### `global.css`: global styles applied throughout the application;
+- ##### `filters.css`: styling related to application filters;
+- ##### `headers.css`: specific styles for the application header;
+- ##### `index.css`: styling related to the application's main tags;
+- ##### `media.css`: styles for different screen sizes (responsiveness);
+- ##### `modal.css`: styles related to the appearance and behavior of the modal.
 
-##### Essa estrutura permite uma fácil navegação entre os diferentes componentes da aplicação e mantém uma organização clara dos arquivos, tornando o desenvolvimento e a manutenção mais eficientes. Sinta-se à vontade para explorar e expandir o projeto de acordo com suas necessidades!
+##### This structure allows for easy navigation between the different application components and maintains a clear organization of files, making development and maintenance more efficient. Feel free to explore and expand the project as per your needs!
